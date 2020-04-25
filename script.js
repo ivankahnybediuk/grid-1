@@ -10,7 +10,14 @@ let firstGrid=
 
 let secondGrid=
 <div className="secondGrid">
-
+<div className="secondGrid__1"></div>
+<div className="secondGrid__2"></div>
+<div className="secondGrid__3"></div>
+<div className="secondGrid__4"></div>
+<div className="secondGrid__5"></div>
+<div className="secondGrid__6"></div>
+<div className="secondGrid__7"></div>
+<div className="secondGrid__8"></div>
 </div>
 
 
@@ -18,6 +25,7 @@ let secondGrid=
 let page =
 <div className="page">
 {firstGrid}
+{secondGrid}
 </div>
 
 ReactDOM.render(page, document.getElementById("root"));

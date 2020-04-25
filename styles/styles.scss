@@ -1,11 +1,19 @@
+.page{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
 .firstGrid{
-    background-color: black;
-    padding: 80px 100px 80px 100px;
-    min-width: 1700px;
-    min-height: 1576px;
+    margin:auto;
+    padding-right:120px ;
+    padding-left:120px ;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 1460px;
+    height: 1416px;
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows: 27% 27% 40%;
+    grid-template-rows: 29% 29% 42%;
     gap: 50px;
     &__1{
         grid-row-start: 1;
@@ -16,47 +24,208 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        min-width: 471px;
-        min-height: 386px;
+        width: 100%;
+        height: 100%;
     }
     &__2{
         background-image: url(../images/grid1_2png.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        min-width: 240px;
-        min-height: 178px;
+        width: 100%;
+        height: 100%;
     }
     &__3{
         background-image: url(../images/grid1_3png.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        min-width: 240px;
-        min-height: 178px;
+        width: 100%;
+        height: 100%;
     }
     &__4{
         background-image: url(../images/grid1_4png.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        min-width: 240px;
-        min-height: 290px;
+        width: 100%;
+        height: 100%;
     }
     &__5{
         background-image: url(../images/grid1_5png.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        min-width: 240px;
-        min-height: 290px;
+        width: 100%;
+        height: 100%;
     }
     &__6{
         background-image: url(../images/grid1_6png.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        min-width: 240px;
-        min-height: 290px;
+        width: 100%;
+        height: 100%;
+    }
+}
+.secondGrid{
+    margin: auto;
+    margin-top: 80px;
+    width: 1700px;
+    height: 848px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    &__1{
+        background-image: url(../images/grid2_1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        &:after {
+            content: "";
+            display: block;    
+            width: 100%;
+            height: 100%;    
+            position: absolute;
+            top: 0;      
+            left: 0;   
+            background-color:rgba(0, 0, 0, 0.5);
+        }
+    }
+    &__2{
+        background-image: url(../images/grid2_2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        &:after {
+            content: "";
+            display: block;    
+            width: 100%;
+            height: 100%;    
+            position: absolute;
+            top: 0;      
+            left: 0;   
+            background-color:rgba(0, 0, 0, 0.5);
+        }
+    }
+    &__3{
+        background-image: url(../images/grid2_3.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        &:after {
+            content: "";
+            display: block;    
+            width: 100%;
+            height: 100%;    
+            position: absolute;
+            top: 0;      
+            left: 0;   
+            background-color:rgba(0, 0, 0, 0.5);
+        }
+    }
+    &__4{
+        background-image: url(../images/grid2_4.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        &:after {
+            content: "";
+            display: block;    
+            width: 100%;
+            height: 100%;    
+            position: absolute;
+            top: 0;      
+            left: 0;   
+            background-color:rgba(0, 0, 0, 0.5);
+        }
+    }
+    &__5{
+        background-image: url(../images/grid2_5.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        &:after {
+            content: "";
+            display: block;    
+            width: 100%;
+            height: 100%;    
+            position: absolute;
+            top: 0;      
+            left: 0;   
+            background-color:rgba(0, 0, 0, 0.5);
+        }
+    }
+    &__6{
+        background-image: url(../images/grid2_6.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        &:after {
+            content: "";
+            display: block;    
+            width: 100%;
+            height: 100%;    
+            position: absolute;
+            top: 0;      
+            left: 0;   
+            background-color:rgba(0, 0, 0, 0.5);
+        }
+    }
+    &__7{
+        background-image: url(../images/grid2_7.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        &:after {
+            content: "";
+            display: block;    
+            width: 100%;
+            height: 100%;    
+            position: absolute;
+            top: 0;      
+            left: 0;   
+            background-color:rgba(0, 0, 0, 0.5);
+        }
+    }
+    &__8{
+        background-image: url(../images/grid2_8.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        &:after {
+            content: "";
+            display: block;    
+            width: 100%;
+            height: 100%;    
+            position: absolute;
+            top: 0;      
+            left: 0;   
+            background-color:rgba(0, 0, 0, 0.5);
+        }
     }
 }

@@ -1,14 +1,24 @@
+.page {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
 .firstGrid {
-  background-color: black;
-  padding: 80px 100px 80px 100px;
-  min-width: 1700px;
-  min-height: 1576px;
+  margin: auto;
+  padding-right: 120px;
+  padding-left: 120px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 1460px;
+  height: 1416px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 27% 27% 40%;
-      grid-template-rows: 27% 27% 40%;
+  -ms-grid-rows: 29% 29% 42%;
+      grid-template-rows: 29% 29% 42%;
   gap: 50px;
 }
 
@@ -23,8 +33,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 471px;
-  min-height: 386px;
+  width: 100%;
+  height: 100%;
 }
 
 .firstGrid__2 {
@@ -32,8 +42,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 240px;
-  min-height: 178px;
+  width: 100%;
+  height: 100%;
 }
 
 .firstGrid__3 {
@@ -41,8 +51,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 240px;
-  min-height: 178px;
+  width: 100%;
+  height: 100%;
 }
 
 .firstGrid__4 {
@@ -50,8 +60,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 240px;
-  min-height: 290px;
+  width: 100%;
+  height: 100%;
 }
 
 .firstGrid__5 {
@@ -59,8 +69,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 240px;
-  min-height: 290px;
+  width: 100%;
+  height: 100%;
 }
 
 .firstGrid__6 {
@@ -68,7 +78,188 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 240px;
-  min-height: 290px;
+  width: 100%;
+  height: 100%;
+}
+
+.secondGrid {
+  margin: auto;
+  margin-top: 80px;
+  width: 1700px;
+  height: 848px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+.secondGrid__1 {
+  background-image: url(../images/grid2_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.secondGrid__1:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.secondGrid__2 {
+  background-image: url(../images/grid2_2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.secondGrid__2:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.secondGrid__3 {
+  background-image: url(../images/grid2_3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.secondGrid__3:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.secondGrid__4 {
+  background-image: url(../images/grid2_4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.secondGrid__4:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.secondGrid__5 {
+  background-image: url(../images/grid2_5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.secondGrid__5:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.secondGrid__6 {
+  background-image: url(../images/grid2_6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.secondGrid__6:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.secondGrid__7 {
+  background-image: url(../images/grid2_7.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.secondGrid__7:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.secondGrid__8 {
+  background-image: url(../images/grid2_8.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.secondGrid__8:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 /*# sourceMappingURL=styles.css.map */
