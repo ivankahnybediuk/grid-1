@@ -1,0 +1,62 @@
+.firstGrid{
+    background-color: black;
+    padding: 80px 100px 80px 100px;
+    min-width: 1700px;
+    min-height: 1576px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 27% 27% 40%;
+    gap: 50px;
+    &__1{
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background-image: url(../images/grid1_1png.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-width: 471px;
+        min-height: 386px;
+    }
+    &__2{
+        background-image: url(../images/grid1_2png.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-width: 240px;
+        min-height: 178px;
+    }
+    &__3{
+        background-image: url(../images/grid1_3png.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-width: 240px;
+        min-height: 178px;
+    }
+    &__4{
+        background-image: url(../images/grid1_4png.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-width: 240px;
+        min-height: 290px;
+    }
+    &__5{
+        background-image: url(../images/grid1_5png.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-width: 240px;
+        min-height: 290px;
+    }
+    &__6{
+        background-image: url(../images/grid1_6png.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-width: 240px;
+        min-height: 290px;
+    }
+}
